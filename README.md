@@ -5,7 +5,15 @@ This a `CSS`  theme of [UNINOVE - Universidade Nove de Julho](www.uninove.br) to
 ## Resources
 
 * [UNINOVE High-res Logo](resources/UNINOVE_LOGO.JPG)
+
 * [UNINOVE CSS file](resources/uninove.css)
+
+* [*xaringan* `macros.js` file](resources/macros.js)
+
+  ```R
+  # add to the image for example
+  ![:scale 90%](images/image.png)
+  ```
 
 ### How to deploy
 
