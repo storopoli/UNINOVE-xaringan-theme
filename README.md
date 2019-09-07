@@ -13,19 +13,17 @@ This a `CSS`  theme of [UNINOVE - Universidade Nove de Julho](www.uninove.br) to
 
 2. Customize the YAML section
 
-   1. `xaringan`
-
-      ```yaml
-      output:
-        xaringan::moon_reader:
-          css: ["default", "uninove.css", "default-fonts"]
-          lib_dir: libs
-          nature:
-            beforeInit: "macros.js"
-            highlightStyle: github
-            highlightLines: true
-            countIncrementalSlides: false
-      ```
+1. ```yaml
+   output:
+     xaringan::moon_reader:
+       css: ["default", "uninove.css", "default-fonts"]
+       lib_dir: libs
+       nature:
+         beforeInit: "macros.js"
+         highlightStyle: github
+         highlightLines: true
+         countIncrementalSlides: false
+   ```
 
 ### UNINOVE Colours
 
